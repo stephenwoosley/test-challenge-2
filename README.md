@@ -8,7 +8,7 @@
 - page content
 - prev & next buttons
 
-## Questions Sought to Answer with Whichit
+## Questions Sought to Answer with whichit
 
 - Which JavaScript framework should I learn as a beginner: Angular or React?
 
