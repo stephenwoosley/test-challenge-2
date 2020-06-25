@@ -18,14 +18,26 @@
                 <div class="text-center mb-3">
                     <div class="display-4 versus-items"><span class="versus-item-1">Angular</span> vs <span class="versus-item-2">React</span></div>
                     <div class="text-dark p-5">
-                        <p class="lead mt-3 mb-5">Do you expect to work in a corporate environment or more of a startup/small business?</p>
-                        <a class="btn btn-lg btn-dark btn-ghost mr-3 q-button" data-qOneAnswerCorporate="false" role="button" href="./q-two.html">corporate</a>
-                        <a class="btn btn-lg btn-dark btn-ghost mr-3 q-button" data-qOneAnswerStartup="false" role="button" href="./q-two.html">startup</a>
+                        <p class="lead mt-3 mb-5">Results are in! Click to reveal our recommendation:</p>
+                        <button class="btn btn-lg btn-dark btn-ghost reveal-results-btn">reveal</button>
+                    </div>
+                    <div class="results hidden-results">
+                        <p class="lead mt-3 mb-5">Survey says:</p>
+                        <div class="results-content display-4">Test Title</div>
+                        <a class="btn btn-lg btn-dark btn-ghost take-more-btn" role="button" href="./more.html">more whichits</a>
                     </div>
                 </div>
             </div>
         </section>
         
     </main>
+    <script>
+        const resultsDiv = document.querySelector('.results')
+        document.querySelector('.reveal-results-btn').addEventListener("click", () => {
+            console.log("clicked!")
+            console.log(resultsDiv.classList);
+            resultsDiv.classList.remove('hidden-results');
+        })
+    </script>
 </body>
 </html>

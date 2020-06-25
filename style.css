@@ -1,0 +1,48 @@
+body {
+  font-family: 'IBM Plex Sans', serif;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.navbar .display-4 {
+  font-size: 2.5em;
+  font-family: 'Righteous', sans-serif;
+}
+
+.card-title, .card-body {
+  font-size: 1.5em;
+}
+
+.card-header {
+  background-color:#353A3F;
+  color: #ffffff;
+  font-family: 'Righteous', sans-serif;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.versus-items {
+  font-size: 48px;
+  font-family: 'IBM Plex Serif', sans-serif;
+}
+
+.versus-item-1 {
+  /* color: #F8D649; */
+}
+
+.versus-item-2 {
+  /* color: #53B485; */
+}
+
+.forward-btn, .q-button {
+  font-family: 'Righteous', sans-serif;
+}
+
+.hidden-results {
+  display: none;
+}

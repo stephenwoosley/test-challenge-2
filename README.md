@@ -23,3 +23,6 @@
 - Do you have a strong preference for Google over Facebook or vice versa?
 
 - Do you prefer strict rules or do you like to figure things out as you go?
+
+- How much does popular opinion about frameworks matter to you?
+
