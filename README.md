@@ -1,4 +1,4 @@
-# test-challenge-2
+# whichit
 
 ### by Stephen Woosley
 
@@ -8,7 +8,7 @@
 - page content
 - prev & next buttons
 
-## Questions Sought to Answer with Whichit
+## Questions Sought to Answer with whichit
 
 - Which JavaScript framework should I learn as a beginner: Angular or React?
 
@@ -25,3 +25,4 @@
 - Do you prefer strict rules or do you like to figure things out as you go?
 
 - How much does popular opinion about frameworks matter to you?
+
