@@ -27,6 +27,7 @@ body {
 }
 
 .versus-items {
+  font-size: 48px;
   font-family: 'IBM Plex Serif', sans-serif;
 }
 
@@ -38,8 +39,10 @@ body {
   /* color: #53B485; */
 }
 
-.forward-btn {
+.forward-btn, .q-button {
   font-family: 'Righteous', sans-serif;
-  /* color: #ff607d; */
-  /* background-color: #FE775A; */
+}
+
+.hidden-results {
+  display: none;
 }
